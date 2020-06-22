@@ -10,3 +10,23 @@
 <출력>
 150
 """
+
+
+first = int(input("첫 번째 수를 입력하세요 : "))
+second = int(input("두 번째 수를 입력하세요 : "))
+cal=input("어떤 연산을 하실 건가요? : ")
+
+if cal == "+" :
+    res = first + second
+    print(res)
+elif cal == "-":
+    res = first - second
+    print(res)
+elif cal == "/" :
+    res = first / second
+    print(res)
+elif cal == "*" :
+    res = first * second
+    print(res)
+else:
+    print("사칙연산기호를 잘못입력하셨습니다.")

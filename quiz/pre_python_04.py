@@ -9,3 +9,14 @@ print(Triangle(10,20))
 100
 
 """
+
+
+def Triangle(a, b):
+    return int((a * b) / 2)
+
+
+num1 = int(input("가로: "))
+num2 = int(input("세로: "))
+
+print(Triangle(num1,num2))
+
