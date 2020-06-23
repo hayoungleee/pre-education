@@ -5,3 +5,13 @@
 <출력>
  45
 """
+
+sum = 0
+num = 1
+while True:
+    sum += num
+    if sum > 1000:
+        print(f'{num}')
+        break
+    num += 1
+
